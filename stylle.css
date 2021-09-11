@@ -1,7 +1,13 @@
 .Missao{
     font-size: 20px;
 }
-
+.Missao strong {
+    color: red;
+}
 body{
     text-align: center;
+    background: #CCCCCC;
+}
+p{
+    
 }
