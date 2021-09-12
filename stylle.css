@@ -20,3 +20,10 @@ body{
 p{
     align-items: center;
 }
+.list-gain{
+    list-style: none;
+    /* background-color: white; */
+}
+.item-list{
+    font-style: italic;
+}
