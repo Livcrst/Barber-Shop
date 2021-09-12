@@ -1,7 +1,8 @@
 .Missao{
     font-size: 20px;
 }
-.Missao strong {
+em strong
+ {
     color: red;
 }
 body{
