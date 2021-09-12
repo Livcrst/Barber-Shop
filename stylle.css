@@ -1,14 +1,22 @@
+.banner{
+    width:100%;
+}
+h1{
+    align-content: center;
+}
 .Missao{
     font-size: 20px;
+    text-align: center;
 }
-em strong
+.Missao strong
  {
     color: red;
 }
+
 body{
     text-align: center;
     background: #CCCCCC;
 }
 p{
-    
+    align-items: center;
 }
