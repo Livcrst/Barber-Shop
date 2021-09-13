@@ -1,8 +1,11 @@
 .banner{
     width:100%;
 }
-h1{
-    align-content: center;
+header{
+    display: inline-block;
+}
+.title-main{
+    padding: 20px;
 }
 .Missao{
     font-size: 20px;
@@ -13,17 +16,37 @@ h1{
     color: red;
 }
 
-body{
-    text-align: center;
-    background: #CCCCCC;
-}
 p{
     align-items: center;
 }
 .list-gain{
-    list-style: none;
+    /* list-style: none; */
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
     /* background-color: white; */
 }
 .item-list{
     font-style: italic;
+}
+.bloco-um{
+    background: #CCCCCC;
+    padding: 30px;
+    /* text-align: center; */
+
+}
+.title-center{
+    text-align: center;
+}
+.bloco-dois{
+    background: white;
+    padding: 20px;
+}
+#beneficiosIMG{
+width: 50%;
+}
+footer{
+    text-align: center;
+    padding: 20px;
 }
