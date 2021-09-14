@@ -26,17 +26,21 @@
         <main>
             <form action="">
                 <label for="#name">Nome Completo</label>
-                <input id="name" type="text">
+                <input id="name" type="text" required placeholder="Digite seu nome">
                 <label for="#email">E-mail</label>
-                <input id="email" type="email">
+                <input id="email" type="email" required placeholder="seuEmail@dominio.com.br">
                 <label for="#telefone">Telefone</label>
-                <input id="telefone" type="text">
+                <input id="telefone" type="tel" required placeholder="(XX) X XXXX-XXXX">
                 <label for="#mensagem">Mensagem</label>
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite a mensagem que deseja enviar"></textarea>
+
+                <!-- O atributo required serve para que dado campo seja de preenchimento obrigatório -->
 
 
-                <div class="meio-contato">
-                    <p>Como prefere que a gente entre em contato contigo?</p>
+                <fieldset class="meio-contato">
+                    <!-- Fieldset serve para agrupar elementos de mesmo "valor" -->
+                    <!-- Toda descrição de um fieldset é um legend -->
+                    <legend>Como prefere que a gente entre em contato contigo?</legend>
                     <label>
                         <input type="radio"value= "Telefone" name="contato">
                         Telefone
@@ -47,15 +51,23 @@
                         E-mail
                     </label>
                     <label>
-                        <input type="radio"value= "whatsapp" name="contato">
+                        <input type="radio"value= "whatsapp" name="contato" checked>
+                        <!-- O atributo checked faz com que o item já inicie marcado, isto é, como sugestão para o usuario -->
                         Whatsapp
                        
                     </label>
-                </div>
-
+                </fieldset>
+                <fieldset class="horarios">
+                  <legend>Em que horário prefere ser atendido?</legend>
+                    <select name="horario-atendimento" id="horario">
+                        <option value="manha">Manhã</option>
+                        <option value="tarde">Tarde</option>
+                        <option value="noite">Noite</option>
+                    </select>
+                </fieldset>
                 <label class="checkbox">
                     Gostaria de receber atualizações através do email?
-                 <input type="checkbox">
+                 <input type="checkbox" checked>
                 </label>
 
 
