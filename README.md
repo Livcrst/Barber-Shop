@@ -26,7 +26,7 @@ Baseado no site proposto pelo curso de web disponivel Alura
 
 ## Preview
 
-  ![image](![image](https://user-images.githubusercontent.com/50409673/133301707-dcbe3c37-c2d7-4574-b361-a5e68edc5edb.png)
+  ![image](https://user-images.githubusercontent.com/50409673/133301707-dcbe3c37-c2d7-4574-b361-a5e68edc5edb.png)
 
 
  
