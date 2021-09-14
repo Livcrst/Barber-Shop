@@ -11,12 +11,18 @@ header{
     display: inline;
     margin: 0 0 0 15px;
 }
+
 .nav-produto a{
     text-transform: uppercase; /*Deixar as coisas em maisculo */
     color: #000000;
     font-weight: bold;
     font-size:22px;
     text-decoration: none;
+}
+.nav-produto a:hover{
+    cursor: pointer;
+    color: #704e4e;   
+    text-decoration: underline;
 }
 .products{
     width: 940px;
@@ -36,6 +42,13 @@ header{
     border-radius: 13px;
 
 }
+.products > li:hover {
+    border: solid 4px  #704e4e;  
+    cursor: pointer;
+}
+.products > li:active{
+    border: solid 4px  #e76a6a;  
+}
 .products > li > h2{
     font-size: 30px;
     font-weight: bold;
@@ -50,4 +63,14 @@ header{
     font-size:22px;
     font-weight: bold;
     margin-top: 10px;
+}
+footer{
+    background-image: url(/img/bg.jpg);
+    text-align: center;
+    padding: 40px 0 ;
+}
+footer > p {
+    color: white;
+    font-size: 13px;
+    margin-top:20px;
 }
