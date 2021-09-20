@@ -76,3 +76,13 @@ footer{
     font-weight: bold;
     background: #CCCCCC;
 }
+.mapa p {
+    text-align: center;
+}
+.mapa{
+    width:900px;
+}
+.mapa iframe {
+    display: flex;
+    justify-content: center;
+}
